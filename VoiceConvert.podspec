@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VoiceConvert"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS音频文件转换"
   s.homepage     = "https://github.com/AwakenDragon/VoiceConvert"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -53,14 +53,14 @@ Pod::Spec.new do |s|
       amrwapper.public_header_files = 'VoiceConvert/amrwapper/**/*.h'
   end
 
-  s.subspec 'opencore-amrnb' do |opencore-amrnb|
-      opencore-amrnb.source_files = 'VoiceConvert/opencore-amrnb/**/*'
-      opencore-amrnb.public_header_files = 'VoiceConvert/opencore-amrnb/**/*.h'
+  s.subspec 'opencore-amrnb' do |opencore_amrnb|
+      opencore_amrnb.source_files = 'VoiceConvert/opencore-amrnb/**/*'
+      opencore_amrnb.public_header_files = 'VoiceConvert/opencore-amrnb/**/*.h'
   end
 
-  s.subspec 'opencore-amrwb' do |opencore-amrwb|
-      opencore-amrwb.source_files = 'VoiceConvert/opencore-amrwb/**/*'
-      opencore-amrwb.public_header_files = 'VoiceConvert/opencore-amrwb/**/*.h'
+  s.subspec 'opencore-amrwb' do |opencore_amrwb|
+      opencore_amrwb.source_files = 'VoiceConvert/opencore-amrwb/**/*'
+      opencore_amrwb.public_header_files = 'VoiceConvert/opencore-amrwb/**/*.h'
   end
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
